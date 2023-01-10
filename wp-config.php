@@ -84,7 +84,7 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /**
  * Removing this could cause issues with your experience in the DreamHost panel
@@ -99,7 +99,6 @@ if (preg_match("/^(.*)\.dream\.website$/", $_SERVER['HTTP_HOST'])) {
 
 define('WP_CACHE', true);
 define('WPCACHEHOME', '/home/dh_xnq64x/zimconnections.com/wp-content/plugins/wp-super-cache/');
-define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
