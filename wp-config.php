@@ -99,6 +99,7 @@ if (preg_match("/^(.*)\.dream\.website$/", $_SERVER['HTTP_HOST'])) {
 
 define('WP_CACHE', true);
 define('WPCACHEHOME', '/home/dh_xnq64x/zimconnections.com/wp-content/plugins/wp-super-cache/');
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
