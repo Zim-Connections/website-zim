@@ -85,6 +85,8 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', false);
 
 /**
  * Removing this could cause issues with your experience in the DreamHost panel
